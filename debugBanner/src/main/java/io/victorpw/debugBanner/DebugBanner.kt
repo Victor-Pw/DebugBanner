@@ -1,4 +1,4 @@
-package io.armcha.debugBanner
+package io.victorpw.debugBanner
 
 import android.app.Activity
 import android.app.Application
@@ -19,9 +19,7 @@ class DebugBanner private constructor(app: Application, private var banner: Bann
         app.registerActivityLifecycleCallbacks(this)
     }
 
-    override fun onActivityCreated(activity: Activity?, savedInstanceState: Bundle?) {
-        if (activity == null)
-            return
+    override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
 
         val decorView = activity.window.decorView as ViewGroup
         val localBanner = if (activity is BannerView) {

@@ -1,4 +1,4 @@
-package io.armcha.debugBanner
+package io.victorpw.debugBanner
 
 import android.content.Context
 import android.graphics.Point

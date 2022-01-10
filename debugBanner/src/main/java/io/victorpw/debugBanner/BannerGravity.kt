@@ -1,4 +1,4 @@
-package io.armcha.debugBanner
+package io.victorpw.debugBanner
 
 enum class BannerGravity {
 

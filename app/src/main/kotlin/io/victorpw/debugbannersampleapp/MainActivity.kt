@@ -1,9 +1,9 @@
-package io.armcha.debugbannersampleapp
+package io.victorpw.debugbannersampleapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        secondActivityButton.setOnClickListener {
+        findViewById<Button>(R.id.secondActivityButton)?.setOnClickListener {
             startActivity(Intent(this, SecondActivity::class.java))
         }
     }

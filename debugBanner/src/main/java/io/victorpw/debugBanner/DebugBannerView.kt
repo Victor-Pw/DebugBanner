@@ -1,15 +1,14 @@
-package io.armcha.debugBanner
+package io.victorpw.debugBanner
 
 import android.content.Context
 import android.graphics.*
-import android.support.v4.content.ContextCompat
-import android.support.v4.view.ViewCompat
-import android.support.v7.widget.AppCompatTextView
 import android.text.TextUtils
 import android.util.AttributeSet
 import android.view.Gravity
 import android.widget.FrameLayout
 import android.widget.TextView
+import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
 
 internal class DebugBannerView(context: Context, attrs: AttributeSet? = null)
     : FrameLayout(context, attrs) {

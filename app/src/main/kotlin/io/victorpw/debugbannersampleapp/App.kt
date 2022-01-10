@@ -1,7 +1,7 @@
-package io.armcha.debugbannersampleapp
+package io.victorpw.debugbannersampleapp
 
 import android.app.Application
-import io.armcha.debugBanner.DebugBanner
+import io.victorpw.debugBanner.DebugBanner
 
 
 /**
